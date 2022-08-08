@@ -8,7 +8,7 @@
 
 html {
     box-sizing: border-box;
-    font-size: 100%; /* Make font-size 10px; 1rem=10px */
+    font-size: 62.5%; /* Make font-size 10px; 1rem=10px */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     letter-spacing: 50;    
 }
@@ -16,7 +16,7 @@ html {
 header {
     background-color: white;
     position: relative;
-    padding: 1.2rem;
+    padding: 1rem;
 }
 
 img {
@@ -28,9 +28,9 @@ img {
 
 h1 {
     text-align: center;
-    font-weight: 500;
-    letter-spacing: 10px;
-    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-size: 2.5rem;
 }
 
 h2 {
@@ -45,19 +45,20 @@ li {
 
 hr {
     width: 80%;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-bottom: 2.5rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2rem;
 }
 
 .header-image {
     height: 3rem;
     box-sizing: unset;
-    padding-right: 5px;
+    padding-right: 4px;
 }
+
 .home-section{
-    width: 1000px; height: 40em;
-    background-image: url(./Images/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg);
+    width: 1080px; height: 50em;
+    background-image: url(./assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -67,8 +68,8 @@ hr {
     color: white;
     font-size: 4rem;
     position: absolute;
-    top: 10px;
-    left: 20px;
+    top: 8px;
+    left: 16px;
     max-width: 25%;
 }
 
@@ -90,8 +91,8 @@ hr {
 }
 
 .about-section {
-    font-size: 1.5rem;
-    width: 1000px;
+    font-size: 1rem;
+    width: 1080px;
 }
 
 .hr2 {
@@ -105,12 +106,12 @@ hr {
 }
 
 .card {
-    max-width: 20rem;
+    max-width: 25rem;
 }
 
 .card-image {
-    max-height: 200px;
-    padding-bottom: 15rem;
+    max-height: 150px;
+    padding-bottom: 20rem;
 }
 
 .nav-li {
@@ -120,13 +121,13 @@ hr {
 .magnifying-glass {
     height: 1.5rem;
     position: absolute;
-    right: .5rem;
-    top: 1rem;
+    right: .4rem;
+    top: .8rem;
 }
 
 .search-bar {
     position: absolute;
-    right: 10rem;
+    right: 8rem;
 }
 
 .nav-list {
