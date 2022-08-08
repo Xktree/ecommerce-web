@@ -99,3 +99,60 @@ hr {
     margin-right: 25%;
     margin-left: 0%;
 }
+
+.about-image-1 {
+    float: right;
+}
+
+.card {
+    max-width: 20rem;
+}
+
+.card-image {
+    max-height: 200px;
+    padding-bottom: 15rem;
+}
+
+.nav-li {
+    width: 100%;
+}
+
+.magnifying-glass {
+    height: 1.5rem;
+    position: absolute;
+    right: .5rem;
+    top: 1rem;
+}
+
+.search-bar {
+    position: absolute;
+    right: 10rem;
+}
+
+.nav-list {
+    display: inline-flex;
+    font-size: 2rem;
+    padding: 2rem;
+    padding: 1rem;
+    padding-left: 1rem;
+    list-style-type: none;
+    width: 40vw;
+}
+
+.nav-a {
+    color: #070707;
+    text-decoration: none;
+    width: 100%;
+}
+
+.nav-b {
+    position: absolute;
+    right:1rem;
+}
+
+.nav-bar {
+    position: absolute;
+    top: 0.7rem;
+    left: 1rem;
+    width: 100%;
+}
